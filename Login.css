@@ -1,0 +1,32 @@
+.login {
+    background-color: #f2f2f2;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.login__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.login__container > img {
+    object-fit: contain;
+    height: 200px;
+}
+
+.demo {
+    border: 1px solid whitesmoke;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.24);
+    justify-content: center;
+}
+
+.email{
+    padding-left: 140px;
+    padding-right: 150px;
+}
+
+.password{
+    padding-left: 170px;
+    padding-right: 150px;
+}
